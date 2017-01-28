@@ -91,7 +91,9 @@ Go to iTerm2 / Preferences / Profiles / Text / Change Font / Meslo LG M Regular 
 
 Go to iTerm2 / Preferences / Profiles / Colors / Colors presets / Solarized Dark
 
-Delete ~/tempFonts/
+Go to iTerm2 / Preferences / Profiles / Windows / Transparency + Blur
+
+Delete downloaded font files
 
 ```zsh
 rm -Rf ~/tempFonts
