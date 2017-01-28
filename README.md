@@ -46,11 +46,11 @@ brew cask install google-chrome
 
 ```
 brew install zsh zsh-completions
-#install oh-my-zsh a zsh configuration helper
+#install oh-my-zsh, a zsh configuration helper
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-## Configure your ZSH theme to use agnoster, *add these lines to your ~\.zshrc*
+## Configure your ZSH theme to use agnoster, *add these lines to your ~/.zshrc*
 
 ```
 ZSH_THEME="agnoster"
@@ -65,17 +65,21 @@ chsh -s /bin/zsh
 ### Restart iTerm2
 
 ## Configure iTerm2
-### Install font Meslo LG M Regular for Powerline
+Install font Meslo LG M Regular for Powerline
  
 ```
 git clone https://github.com/powerline/fonts.git ~/tempFonts
 ~/tempFonts/install.sh
 ```
   
-### Go to ~/Library/Fonts and install font Meslo LG M Regular for Powerline
-### Go to iTerm2 / Preferences / Profiles / Text / Change Font / Meslo LG M Regular for Powerline
-### Go to iTerm2 / Preferences / Profiles / Colors / Colors presets / Solarized Dark
-### Delete ~/tempFonts/
+Go to ~/Library/Fonts and install font Meslo LG M Regular for Powerline
+Go to iTerm2 / Preferences / Profiles / Text / Change Font / Meslo LG M Regular for Powerline
+Go to iTerm2 / Preferences / Profiles / Colors / Colors presets / Solarized Dark
+Delete ~/tempFonts/
+
+```
+rm -Rf ~/tempFonts
+```
 
 ## Configure your editor, *add these lines to your ~/.zshrc*
 
@@ -130,4 +134,4 @@ docker run hello-world
 ```
 
 Please contribute to improve this and share it to the world if you like it 😉
-me on twitter [@cyril_lakech](https://twitter.com/cyril_lakech)
+/me on twitter [@cyril_lakech](https://twitter.com/cyril_lakech)
