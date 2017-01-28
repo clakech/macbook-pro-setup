@@ -121,6 +121,7 @@ git config --global credential.helper osxkeychain
 git config --global alias.co checkout
 git config --global alias.ci commit
 git config --global alias.st status
+#see all default oh-my-zsh git aliases https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet#git
 ```
 
 ## Install NodeJS
