@@ -79,6 +79,7 @@ Install font Meslo LG M Regular for Powerline
  
 ```
 git clone https://github.com/powerline/fonts.git ~/tempFonts
+
 ~/tempFonts/install.sh
 ```
   
@@ -134,6 +135,7 @@ nvm install --lts
 
 ```
 brew cask install Docker
+
 docker run hello-world
 ```
 
@@ -143,8 +145,11 @@ docker run hello-world
 
 ```
 brew cask install virtualbox
+
 brew install docker docker-machine docker-compose
+
 docker-machine create -d virtualbox default
+
 docker run hello-world
 ```
 
