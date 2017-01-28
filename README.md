@@ -6,11 +6,11 @@ Setup your brand new macbook pro
 
 OK... Quick reminder!
 
-* Install Xcode
+* Install Xcode  
 ```
  xcode-select --install
 ```
-* Install HomeBrew
+* Install HomeBrew  
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
