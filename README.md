@@ -21,7 +21,7 @@ Setup your brand new macbook pro like a pro
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## Install Homebrew Cask, *a tool to install UI tools without monkey clicking*
+## Install Homebrew Cask, *a tool to install UI tools without [monkey clicking](https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md)*
 
 ```bash
 brew tap caskroom/cask
@@ -159,6 +159,12 @@ docker-machine create -d virtualbox default
 eval "$(docker-machine env default)"
 
 docker run hello-world
+```
+
+## update all yours tools, *in 1 line*
+
+```zsh
+brew update
 ```
 
 Please contribute to improve this and share it to the world if you like it 😉
