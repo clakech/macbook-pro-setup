@@ -11,25 +11,25 @@ Setup your brand new macbook pro like a pro
 
 ## Install Xcode, *on macOS, you can't dev without Xcode*
 
-```
+```bash
  xcode-select --install
 ```
 
 ## Install HomeBrew, *a tool to install CLI tools without copy/paste*
 
-```
+```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ## Install Homebrew Cask, *a tool to install UI tools without monkey clicking*
 
-```
+```bash
 brew tap caskroom/cask
 ```
 
 ## Install tools for devs, *a short must have list*
 
-```
+```bash
 #what else?
 brew install git
 
@@ -49,9 +49,9 @@ brew cask install slack
 brew cask install google-chrome 
 ```
 
-## Install ZSH & co, *the best shell for devs #mustHave*
+## Install ZSH & co, *the best shell for devs [#mustHave](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)*
 
-```
+```bash
 brew install zsh zsh-completions
 
 #install oh-my-zsh, a zsh configuration helper
@@ -60,7 +60,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ## Configure your ZSH on steroids, *add these lines to your ~/.zshrc*
 
-```
+```bash
 plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)
 
 ZSH_THEME="agnoster"
@@ -69,7 +69,7 @@ DEFAULT_USER="yourusername"
 
 ## Configure shell to use zsh, *type this line in your iTerm2 shell*
 
-```
+```bash
 chsh -s /bin/zsh
 ```
 
@@ -79,7 +79,7 @@ chsh -s /bin/zsh
 
 Install font Meslo LG M Regular for Powerline
  
-```
+```zsh
 git clone https://github.com/powerline/fonts.git ~/tempFonts
 
 ~/tempFonts/install.sh
@@ -93,7 +93,7 @@ Go to iTerm2 / Preferences / Profiles / Colors / Colors presets / Solarized Dark
 
 Delete ~/tempFonts/
 
-```
+```zsh
 rm -Rf ~/tempFonts
 ```
 
@@ -103,14 +103,14 @@ rm -Rf ~/tempFonts
 
 ## Configure your editor, *add these lines to your ~/.zshrc*
 
-```
+```zsh
 export EDITOR="atom -w"
 alias edit="atom -nw"
 ```
 
 ## Configure git
 
-```
+```zsh
 git config --global user.name "Your Name Here"
 git config --global user.email "your_email@youremail.com"
 
@@ -125,7 +125,7 @@ git config --global alias.st status
 
 ### Install NVM, *to manage multiple NodeJS versions*
 
-```
+```zsh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
  
@@ -133,13 +133,13 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | b
 
 ### Install NodeJS LTS, *latest long term supported version*
  
-```
+```zsh
 nvm install --lts
 ```
 
 ## Configure Docker *using HyperKit (xhyve)*
 
-```
+```zsh
 brew cask install Docker
 
 docker run hello-world
@@ -149,7 +149,7 @@ docker run hello-world
 
 ## Configure Docker *using virtualbox*
 
-```
+```zsh
 brew cask install virtualbox
 
 brew install docker docker-machine docker-compose
