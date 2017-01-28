@@ -12,7 +12,7 @@ Setup your brand new macbook pro
  xcode-select --install
 ```
 
-## Install HomeBrew, *a good tool to install CLI tools without monkey copy/*
+## Install HomeBrew, *a good tool to install CLI tools without monkey copy/paste*
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
