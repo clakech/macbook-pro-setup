@@ -35,12 +35,16 @@ brew install git
 
 #customizable terminal
 brew cask install iterm2
+
 #customizable editor
 brew cask install atom
+
 #IDE for web dev
 brew cask install webstorm
+
 #to keep in touch with your team
 brew cask install slack
+
 #best web dev browser ^^
 brew cask install google-chrome 
 ```
@@ -49,6 +53,7 @@ brew cask install google-chrome
 
 ```
 brew install zsh zsh-completions
+
 #install oh-my-zsh, a zsh configuration helper
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
