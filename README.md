@@ -4,6 +4,7 @@
 Setup your brand new macbook pro like a pro
 
 ## Mostly Follow [http://sourabhbajaj.com/mac-setup/index.html](http://sourabhbajaj.com/mac-setup/index.html)
+
 ## The End 😎
 
 > OK... let's share a quick reminder!
