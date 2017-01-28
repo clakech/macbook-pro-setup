@@ -99,7 +99,7 @@ rm -Rf ~/tempFonts
 
 ## Tada 🎉
 
-![](https://github.com/clakech/macbook-pro-setup/blob/master/iTerm2zshAgnoster.png)
+![](iTerm2zshAgnoster.png?raw=true)
 
 ## Configure your editor, *add these lines to your ~/.zshrc*
 
