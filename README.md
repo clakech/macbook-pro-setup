@@ -15,13 +15,13 @@ Setup your brand new macbook pro like a pro
  xcode-select --install
 ```
 
-## Install HomeBrew, *a good tool to install CLI tools without monkey copy/paste*
+## Install HomeBrew, *a tool to install CLI tools without copy/paste*
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## Install Homebrew Cask, *a good tool to install UI tools without monkey clicking*
+## Install Homebrew Cask, *a tool to install UI tools without monkey clicking*
 
 ```
 brew tap caskroom/cask
@@ -45,7 +45,7 @@ brew cask install slack
 brew cask install google-chrome 
 ```
 
-## Install ZSH & co, *the best shell for devs #veryMustHave*
+## Install ZSH & co, *the best shell for devs #mustHave*
 
 ```
 brew install zsh zsh-completions
