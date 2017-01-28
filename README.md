@@ -15,13 +15,13 @@ Setup your brand new macbook pro like a pro
  xcode-select --install
 ```
 
-## Install HomeBrew, *a tool to install CLI tools without copy/paste*
+## Install [HomeBrew](http://brew.sh/), *a tool to install CLI tools without copy/paste*
 
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## Install Homebrew Cask, *a tool to install UI tools without [monkey clicking](https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md)*
+## Install [Homebrew Cask](https://caskroom.github.io/), *a tool to install UI tools without [monkey clicking](https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md)*
 
 ```bash
 brew tap caskroom/cask
@@ -49,7 +49,7 @@ brew cask install slack
 brew cask install google-chrome 
 ```
 
-## Install ZSH & co, *the best shell for devs [#mustHave](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)*
+## Install ZSH & co, *the best shell suite for devs [#mustHave](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)*
 
 ```bash
 brew install zsh zsh-completions
@@ -123,7 +123,7 @@ git config --global alias.st status
 
 ## Install NodeJS
 
-### Install NVM, *to manage multiple NodeJS versions*
+### Install [NVM](https://github.com/creationix/nvm), *to manage multiple NodeJS versions*
 
 ```zsh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
@@ -161,7 +161,7 @@ eval "$(docker-machine env default)"
 docker run hello-world
 ```
 
-## update all yours tools, *in 1 line*
+## update (most of) your dev tools, *in (almost) 1 line*
 
 ```zsh
 brew update
