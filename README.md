@@ -24,7 +24,7 @@ Setup your brand new macbook pro
 brew tap caskroom/cask
 ```
 
-## Install tools for dev, *a short must have list*
+## Install tools for devs, *a short must have list*
 
 ```
 #what else?
@@ -42,7 +42,7 @@ brew cask install slack
 brew cask install google-chrome 
 ```
 
-## Install ZSH & co, *the best shell for dev #veryMustHave*
+## Install ZSH & co, *the best shell for devs #veryMustHave*
 
 ```
 brew install zsh zsh-completions
