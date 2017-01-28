@@ -41,10 +41,10 @@ brew install cntlm
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-* Set zsh theme to agnoster
+* Set zsh theme to agnoster in .zshrc
 ```
 ZSH_THEME="agnoster"
-DEFAULT_USER="username"
+DEFAULT_USER="yourusername"
 ```
 * Switch shell to zsh
 ```
@@ -59,3 +59,29 @@ chsh -s /bin/zsh
  * Go to ~/Library/Fonts and install font Meslo LG M Regular for Powerline
  * Go to iTerm2 / Preferences / Profiles / Text / Change Font / Meslo LG M Regular for Powerline
  * Go to iTerm2 / Preferences / Profiles / Colors / Colors presets / Solarized Dark
+* Configure your EDITOR
+```
+export EDITOR="atom -w"
+alias edit="atom -nw"
+```
+* Configure git
+```
+git config --global user.name "Your Name Here"
+git config --global user.email "your_email@youremail.com"
+
+git config --global credential.helper osxkeychain
+
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+```
+* Install NodeJS
+ * Install NVM
+ ```
+ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+ ```
+ * Restart iTerm2
+ * Install Node LTS
+ ```
+ nvm install --lts
+ ```
