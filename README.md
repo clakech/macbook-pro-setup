@@ -150,6 +150,8 @@ brew install docker docker-machine docker-compose
 
 docker-machine create -d virtualbox default
 
+eval "$(docker-machine env default)"
+
 docker run hello-world
 ```
 
