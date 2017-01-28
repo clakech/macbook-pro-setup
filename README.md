@@ -1,11 +1,10 @@
-# macbook-pro-setup
+# macbook-pro-setup #NodeJS #Docker #iTerm2 #Atom #WebStorm #ZSH
 Setup your brand new macbook pro
 
 * Mostly Follow http://sourabhbajaj.com/mac-setup/index.html
-
 * The End :-)
 
-OK...
+OK... Quick reminder!
 
 * Install Xcode
 ```
@@ -27,15 +26,12 @@ brew cask install webstorm
 brew cask install slack
 brew cask install virtualbox
 brew cask install google-chrome
-brew cask install java
-brew cask install squirrelsql
 ```
 * Install CLI stuff
 ```
 brew install git
 brew install zsh zsh-completions
 brew install docker docker-machine docker-compose
-brew install cntlm
 ```
 * Install oh-my-zsh
 ```
@@ -54,7 +50,7 @@ chsh -s /bin/zsh
  * Install font Meslo LG M Regular for Powerline
   ```
   git clone https://github.com/powerline/fonts.git ~/tempFonts
-  ~/tempFonts/install.sh
+  ~/tempFonts/install.sh #delete it one day ;)
   ```
  * Go to ~/Library/Fonts and install font Meslo LG M Regular for Powerline
  * Go to iTerm2 / Preferences / Profiles / Text / Change Font / Meslo LG M Regular for Powerline
@@ -85,3 +81,7 @@ git config --global alias.st status
  ```
  nvm install --lts
  ```
+* Configure Docker
+```
+docker-machine create -d virtualbox default
+```
