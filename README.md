@@ -97,6 +97,10 @@ Delete ~/tempFonts/
 rm -Rf ~/tempFonts
 ```
 
+## Tada 🎉
+
+[[https://github.com/clakech/macbook-pro-setup/blob/master/iTerm2zshAgnoster.png|alt=iTerm2zshAgnoster]]
+
 ## Configure your editor, *add these lines to your ~/.zshrc*
 
 ```
