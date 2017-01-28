@@ -65,6 +65,7 @@ DEFAULT_USER="yourusername"
 ```
 chsh -s /bin/zsh
 ```
+
 ### Restart iTerm2
 
 ## Configure iTerm2
