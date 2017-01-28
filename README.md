@@ -1,10 +1,12 @@
-# macbook-pro-setup #NodeJS #Docker #iTerm2 #Atom #WebStorm #ZSH
-Setup your brand new macbook pro
+# My MacBook Pro setup
+#NodeJS #Docker #iTerm2 #Atom #WebStorm #ZSH
 
-* Mostly Follow [http://sourabhbajaj.com/mac-setup/index.html](http://sourabhbajaj.com/mac-setup/index.html)
-* The End 😎
+Setup your brand new macbook pro like a pro
 
-> OK... Quick reminder!
+## Mostly Follow [http://sourabhbajaj.com/mac-setup/index.html](http://sourabhbajaj.com/mac-setup/index.html)
+## The End 😎
+
+> OK... let's share a quick reminder!
 
 ## Install Xcode, *on macOS, you can't dev without Xcode*
 
