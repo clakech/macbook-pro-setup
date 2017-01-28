@@ -110,18 +110,29 @@ git config --global alias.st status
 ```
 
 ## Install NodeJS
+
 ### Install NVM, *to manage multiple NodeJS versions*
 
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
  
-### Restart iTerm2, or `touch ~/.zshrc`
+### Restart iTerm2, *or `touch ~/.zshrc`*
+
 ### Install NodeJS LTS, *latest long term supported version*
  
 ```
 nvm install --lts
 ```
+
+## Configure Docker *using HyperKit (xhyve)*
+
+```
+brew cask install Docker
+docker run hello-world
+```
+
+**or**
 
 ## Configure Docker *using virtualbox*
 
@@ -129,15 +140,6 @@ nvm install --lts
 brew cask install virtualbox
 brew install docker docker-machine docker-compose
 docker-machine create -d virtualbox default
-docker run hello-world
-```
-
-**or**
-
-## Configure Docker *using HyperKit (xhyve)*
-
-```
-brew cask install Docker
 docker run hello-world
 ```
 
