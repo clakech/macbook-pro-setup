@@ -51,11 +51,11 @@ DEFAULT_USER="username"
 chsh -s /bin/zsh
 ```
 * Configure iTerm2
-1. Install Font Meslo LG M Regular for Powerline
+Install font Meslo LG M Regular for Powerline
 ```
 git clone https://github.com/powerline/fonts.git ~/tempFonts
 ~/tempFonts/install.sh
 Go to ~/Library/Fonts and install font Meslo LG M Regular for Powerline
 ```
-2. Preferences / Profiles / Text / Change Font / Meslo LG M Regular for Powerline
-3. Preferences / Profiles / Colors / Colors presets / Solarized Dark
+Go to Preferences / Profiles / Text / Change Font / Meslo LG M Regular for Powerline
+Go to Preferences / Profiles / Colors / Colors presets / Solarized Dark
