@@ -101,7 +101,7 @@ rm -Rf ~/tempFonts
 
 ## Tada 🎉
 
-![](iTerm2zshAgnoster.png?raw=true)
+![](iTerm2zsh.png?raw=true)
 
 ## Configure your editor, *add these lines to your ~/.zshrc*
 
