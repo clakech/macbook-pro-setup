@@ -58,9 +58,11 @@ brew install zsh zsh-completions
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-## Configure your ZSH theme to use agnoster, *add these lines to your ~/.zshrc*
+## Configure your ZSH on steroids, *add these lines to your ~/.zshrc*
 
 ```
+plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)
+
 ZSH_THEME="agnoster"
 DEFAULT_USER="yourusername"
 ```
