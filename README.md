@@ -57,12 +57,16 @@ brew install zsh zsh-completions
 
 #install oh-my-zsh, a zsh configuration helper
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+#install auto suggestions plugin
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
 ```
 
 ## Configure your ZSH on steroids, *add these lines to your ~/.zshrc*
 
 ```bash
-plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)
+plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting zsh-autosuggestions)
 
 ZSH_THEME="agnoster"
 DEFAULT_USER="yourusername"
