@@ -164,6 +164,27 @@ eval "$(docker-machine env default)"
 docker run hello-world
 ```
 
+## Manage your dotFiles using git, *[because you may want to review history one day](http://dotfiles.github.io/)*
+
+```zsh
+#goto your home dir, using zsh no need to cd ~ 
+cd
+
+#create a git repo ignoring all files to avoid sharing sensistive stuff
+git init
+echo "*" > .gitignore
+
+#git force add file you WANT to manage
+ga -f .zshrc
+...
+
+#git commit all added files, gca = git commit -v -a thanks to oh-my-zsh
+gca
+
+#optional but recommanded, if you setup a git remote to backup your files using github for instance
+git push origin master
+```
+
 ## update (most of) your dev tools, *in (almost) 1 line*
 
 ```zsh
