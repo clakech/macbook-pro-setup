@@ -1,6 +1,6 @@
 # My MacBook Pro setup [https://clakech.github.io/macbook-pro-setup/](https://clakech.github.io/macbook-pro-setup/)
 
-#NodeJS #Docker #iTerm2 #Atom #WebStorm #ZSH
+\#NodeJS #Docker #iTerm2 #Atom #WebStorm #ZSH
 
 Setup your brand new macbook pro like a pro
 
