@@ -219,6 +219,7 @@ fortune | cowsay | lolcat
 ```
 
 🎉
+![](ponysay.png?raw=true)
 
 Please contribute to improve this and share it to the world if you like it 😉
 
