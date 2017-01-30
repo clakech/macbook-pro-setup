@@ -46,11 +46,17 @@ brew cask install webstorm
 #to keep in touch with your team
 brew cask install slack
 
+#best web dev browser ^^
+brew cask install google-chrome 
+
 #replace spotlight with alfred
 brew cask install alfred
 
-#best web dev browser ^^
-brew cask install google-chrome 
+#manage windows with keyboard shortcuts
+brew cask install spectacle
+
+#type emoticons easily everywhere
+brew cask install rocket
 ```
 
 ## Install ZSH & co, *the best shell suite for devs [#mustHave](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)*
