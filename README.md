@@ -46,6 +46,9 @@ brew cask install webstorm
 #to keep in touch with your team
 brew cask install slack
 
+#replace spotlight with alfred
+brew cask install alfred
+
 #best web dev browser ^^
 brew cask install google-chrome 
 ```
