@@ -193,7 +193,7 @@ git push origin master
 ## update (most of) your dev tools, *in (almost) 1 line*
 
 ```zsh
-brew upgrade
+brew update && brew upgrade
 ```
 
 Please contribute to improve this and share it to the world if you like it 😉
