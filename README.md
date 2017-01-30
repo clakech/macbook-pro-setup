@@ -199,6 +199,21 @@ git push origin master
 brew update && brew upgrade
 ```
 
+## have fun 
+
+```zsh
+sudo gem install lolcat
+
+brew install cowsay ponysay fortune
+
+#add a combinaison of nawak at the end of .zshrc or .zlogin
+fortune | ponysay
+#or
+fortune | cowsay | lolcat
+```
+
+🎉
+
 Please contribute to improve this and share it to the world if you like it 😉
 
 /me on twitter [@cyril_lakech](https://twitter.com/cyril_lakech)
