@@ -102,6 +102,7 @@ git clone https://github.com/powerline/fonts.git ~/tempFonts
 Go to ~/Library/Fonts and install font Meslo LG M Regular for Powerline
 
 Go to iTerm2 / Preferences / Profiles / Text / Change Font / Meslo LG M Regular for Powerline.
+
 Make sure the option `Use a different font for non-ASCII character` is **not** checked.
 
 Go to iTerm2 / Preferences / Profiles / Colors / Colors presets / Solarized Dark
