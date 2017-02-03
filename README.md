@@ -159,7 +159,7 @@ nvm install --lts
 ## Configure Docker *using HyperKit (xhyve)*
 
 ```zsh
-brew cask install Docker
+brew cask install docker
 
 docker run hello-world
 ```
