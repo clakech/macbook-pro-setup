@@ -210,9 +210,7 @@ brew update && brew upgrade
 ## have fun 
 
 ```zsh
-sudo gem install lolcat
-
-brew install cowsay ponysay fortune
+brew install cowsay ponysay fortune lolcat
 
 #add a combinaison of nawak at the end of .zshrc or .zlogin
 fortune | ponysay
