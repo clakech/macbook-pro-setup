@@ -216,6 +216,8 @@ brew install cowsay ponysay fortune lolcat
 fortune | ponysay
 #or
 fortune | cowsay | lolcat
+#or even both using this line
+if [[ "$(($RANDOM%2))" == "0" ]]; then; fortune | ponysay; else fortune | cowsay | lolcat; fi;
 ```
 
 🎉
