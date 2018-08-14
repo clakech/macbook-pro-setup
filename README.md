@@ -37,6 +37,9 @@ brew install git
 #customizable terminal
 brew cask install iterm2
 
+#much more than a simple editor
+brew cask install visual-studio-code
+
 #customizable editor
 brew cask install atom
 
