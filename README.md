@@ -47,7 +47,7 @@ brew cask install webstorm
 brew cask install slack
 
 #best web dev browser ^^
-brew cask install google-chrome 
+brew cask install google-chrome
 
 #replace spotlight with alfred
 brew cask install alfred
@@ -92,13 +92,13 @@ chsh -s /bin/zsh
 ## Configure iTerm2
 
 Install font Meslo LG M Regular for Powerline
- 
+
 ```zsh
 git clone https://github.com/powerline/fonts.git ~/tempFonts
 
 ~/tempFonts/install.sh
 ```
-  
+
 Go to ~/Library/Fonts and install font Meslo LG M Regular for Powerline
 
 Go to iTerm2 / Preferences / Profiles / Text / Change Font / Meslo LG M Regular for Powerline.
@@ -147,13 +147,51 @@ git config --global alias.st status
 ```zsh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
- 
+
 ### Restart iTerm2, *or `touch ~/.zshrc`*
 
 ### Install NodeJS LTS, *latest long term supported version*
- 
+
 ```zsh
 nvm install --lts
+```
+
+## Install any SDK !
+
+### Install [SdkMan](https://sdkman.io/), *to manage multiple SDKs & their versions*
+
+```zsh
+curl -s "https://get.sdkman.io" | bash
+```
+
+```zsh
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+```
+
+Check that it is installed running
+
+```zsh
+sdk version
+```
+
+### Install your [favorite SDKs](https://sdkman.io/sdks) just like that :
+
+```zsh
+sdk install java 11.0.2-open
+```
+
+### Useful commands
+
+List all versions of a given SDK (marks installed as * and used as >)
+
+```zsh
+sdk list <sdk>
+```
+
+Use a given version
+
+```zsh
+sdk use <sdk> <version>
 ```
 
 ## Configure Docker *using HyperKit (xhyve)*
@@ -183,7 +221,7 @@ docker run hello-world
 ## Manage your dotFiles using git, *[because you may want to review history one day](http://dotfiles.github.io/)*
 
 ```zsh
-#goto your home dir, using zsh no need to cd ~ 
+#goto your home dir, using zsh no need to cd ~
 cd
 
 #create a git repo ignoring all files to avoid sharing sensistive stuff
@@ -207,7 +245,7 @@ git push origin master
 brew update && brew upgrade
 ```
 
-## have fun 
+## have fun
 
 ```zsh
 brew install cowsay ponysay fortune lolcat
