@@ -25,7 +25,7 @@ Setup your brand new macbook pro like a pro
 ## Install [Homebrew Cask](https://caskroom.github.io/), *a tool to install UI tools without [monkey clicking](https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md)*
 
 ```bash
-brew tap caskroom/cask
+brew tap homebrew/cask
 ```
 
 ## Install tools for devs, *a short must have list*
